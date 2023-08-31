@@ -21,6 +21,6 @@ setup(
     author="EleutherAI",
     author_email="",
     packages=["minetest_baselines"],
-    install_requires=["minetester>=0.0.1", *UTILS, *TORCH, *JAX],
+    install_requires=["minetester>=0.0.1", *UTILS],
     extras_require={"dev": DEV},
 )

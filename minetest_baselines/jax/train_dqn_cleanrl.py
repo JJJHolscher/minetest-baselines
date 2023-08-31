@@ -8,7 +8,7 @@ from typing import Callable
 
 import flax
 import flax.linen as nn
-import gym
+import gymnasium as gym
 import jax
 import jax.numpy as jnp
 import numpy as np
